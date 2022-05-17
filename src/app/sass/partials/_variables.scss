@@ -1,13 +1,39 @@
 $prefix: "../../../assets/";
-$bg__error-img: $prefix+"img/error.jpg";
 $bg__comingsoon-img: $prefix+"img/coming.jpg";
+$bg__contact-img: 
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2.jpg",
+    $prefix+"img/contact/contact-s3.jpg";
+$bg__courts-img: 
+    $prefix+"img/courts/courts-s1.jpg",
+    $prefix+"img/courts/courts-s2.jpg";
+$bg__error-img: $prefix+"img/error.jpg";
+$bg__index-img: $prefix+"img/index/index-s1.jpg";
+$bg__players-img: $prefix+"img/players/players-s1.jpg";
 $bg__privacy-img: $prefix+"img/privacy.jpg";
+$bg__tournament-img: 
+    $prefix+"img/tournament/tournament-s1.jpg",
+    $prefix+"img/tournament/tournament-s2.jpg";
+$bg__user-img: $prefix+"img/user/user-s1.jpg";
 $bg__init:
-    "error",
     "comingsoon",
-    "privacy";
+    "contact",
+    "courts",
+    "error",
+    "index",
+    "players",
+    "privacy",
+    "tournament",
+    "user";
 $classes_init:
-    $bg__error-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__contact-img,
+    $bg__courts-img,
+    $bg__error-img,
+    $bg__index-img,
+    $bg__players-img,
+    $bg__privacy-img,
+    $bg__tournament-img,
+    $bg__user-img;
 $footer-height: 41px;
+$text__shadow: 1px 1px 3px #333;

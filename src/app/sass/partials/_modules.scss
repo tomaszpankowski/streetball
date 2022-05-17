@@ -3,9 +3,77 @@
 .comingsoon-s1{
     background-blend-mode: multiply;
 }
+.contact{
+    &-s2{
+        background-position: right!important;
+    }
+    &-s3{
+        background-blend-mode: multiply !important;
+        background-color: #999 !important;
+    }
+}
 .error-s1{
     background-blend-mode: multiply;
 }
 .privacy-s1{
     background-blend-mode: multiply;
+}
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
+nav{
+    z-index: 10;
+}
+
+@media all and (max-width: 767px){
+    .contact{
+        &-s1,&-s2{
+            * {
+                color: #fff!important;
+                text-shadow: $text__shadow;
+            }
+            background-blend-mode: multiply !important;
+            background-color: #999 !important;
+        }
+        &-s1{
+            background-position: right!important;
+        }
+        &-s2{
+            background-position: left!important;
+        }
+    }
+    .courts,.tournament{
+        &-s1,&-s2{
+            * {
+                color: #fff!important;
+                text-shadow: $text__shadow;
+            }
+            background-blend-mode: multiply !important;
+            background-color: #999 !important;
+        }
+        &-s2{
+            background-position: right!important;
+        }
+    }
+    .index,.players{
+        &-s1{
+            background-blend-mode: multiply !important;
+            background-color: #999 !important;
+            background-position: left!important;
+        }
+    }
+    .navbar{
+        &-toggler{
+            background-color: #555;
+            border-color: #333;
+        }
+        &-nav{
+            background-color: #555;
+            border: 1px solid #333;
+            opacity: 0.9;
+            padding: 10px
+        }
+    }
 }
